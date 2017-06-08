@@ -1,0 +1,30 @@
+Contribution de MASTALERZ Thomas:
+> Debut du projet : 08/02/2016
+> Rôle : Programmeur -
+>> Details : Programmation de méthode pour Livrable 2 
+- Création de la méthode régression linéaire.
+- étude de la programmation en utilisant JavaFx
+
+    
+Avis sur le groupe :
+    Positives:
+    
+        Bon groupe, sérieux et travailleur. Bonne entraide.
+        même remarque que pour le livrable 1 le groupe fonctionne parfaitement bien
+    
+    Négatives :
+        
+        pour ma part j'ai été embêté durant cette deuxième partie de projet car la majeure partie des choses à faire étaient pour la création de l'interface graphique en javaFx
+        que je ne maitrise pas du tout, j'ai donc laissé les autres membres du groupe géré cette partie la du projet. 
+    
+Fréquence de travail : 
+    3h/semaine ;
+    Jour de travail le plus fréquent : Jeudi (réservation d'une salle de travail à la bibliothèque);
+    Personnel : Au moins 1 à 2h chaque jours pour ne pas prendre de retard.
+    Samedi matin à l'iut pour avancer dans le projet grâce à monsieur LEBEGUE 
+    
+    Tout le monde avait des tâches à faire. Chaque semaine on se rassemblait, que ce soit dans une salle réservée à la bibliothèque Liliad ou dans une salle TP de l'IUT.
+    On rester en contact grâce a un groupe facebook et un Google Drive pour pouvoir échanger sur le projet.
+    
+    Nous avons également utilisé un site qui m'a été recommandé pendant les projets https://trello.com/b/tVfIunsW/projet qui nous permet de bien voir ce qu'il reste à faire 
+    et de se répartir les tâches

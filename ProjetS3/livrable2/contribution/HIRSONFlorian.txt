@@ -1,0 +1,36 @@
+Contribution de HIRSON Florian :
+> Debut du projet : 08/02/2016
+> Rôle : Programmeur -
+>> Details : 
+
+Livrable 2 : Programmation de l'interface graphique du menu
+-Creation de la méthode permettant de telecharger un fichier csv a partir d'internet
+-Creation de la methode permettant d charger un fichier csv
+-Creation d'un menu permettant de changer de styles graphiques de l'interface
+-Creation d'un menu de selection de courbes à appliquer sur une transformation/analyse/prevision
+-Creation d'une fenetre permettant d'afficher des exception en graphique
+-Creation de la fenetre de saisie de l'odre de la moyenne mobile et de lambda pour la transformation box cox
+            -
+Livrable 1 : Programmation de méthode pour Livrable 1 et menu de chargement de csv pour Livrable 2
+- Création de la méthode de BoxCox.
+- Création d'un menu en graphique de chargement de fichier csv pour le livrable 2.
+- Création d'une méthode permetant de charger des fichiers csv à partir d'internet.
+- Création d'un menu en graphique pour enregistrer les transformations dans des fichiers csv pour le livrable 2.
+    
+Avis sur le groupe :
+    Positives:
+    
+        Bon groupe, sérieux et travailleur. Bonne entraide.
+    
+    Négatives :
+        
+        Problème de compréhension. Réglable facilement. 
+    
+Fréquence de travail : 
+    3h/semaine ;
+    Jour de travail le plus fréquent : Jeudi (réservation d'une salle de travaille à la bibliothèque);
+    Personnel : Au moins 1h chaque jour pour ne pas prendre de retard.
+    Samedi matin à l'iut pour avancer dans le projet
+    
+    Tout le monde avait des tâches à faire. Chaque semaine on se rassemblé, que ce soit dans une salle réservé à la bibliothèque Liliad ou dans une salle TP de l'IUT.
+    On rester en contact grâce a un groupe facebook et un Google Drive pour pouvoir échanger sur le projet.

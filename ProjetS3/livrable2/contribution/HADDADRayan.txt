@@ -1,0 +1,42 @@
+Contribution de HADDAD Rayan :
+
+> Debut du projet : 08/02/2016
+> Rôle : Chef de projet / Programmeur -
+
+>> Details : Programmation de méthode pour Livrable 1 et menu pour Livrable 2
+    
+Avis sur le groupe :
+
+    Positives:
+    
+        Bon groupe, sérieux et travailleur. Bonne entraide.
+    
+    Négatives :
+        
+        Problème de compréhension. Réglable facilement. 
+
+                                 LIVRABLE 1
+    - Création de la méthode de la moyenne mobile et participation à la création de la méthode du résidu.
+    - Création d'un menu en graphique (JavaFX) pour le Livrable 2.
+    - Ecriture des tests.
+    - Aide sur les autres méthode pour les transformations.
+    
+                                LIVRABLE 2
+    - Création de la méthode de la moyenne mobile pondéré.
+    - Uml view et controler.
+    - Interface graphique.
+    - Vidéo de présentation.
+
+    
+Fréquence de travail : 
+    3h/semaine ;
+    Jour de travail le plus fréquent : Jeudi (réservation d'une salle de travaille à la bibliothèque);
+    Personnel : Au moins 1h chaque jour pour ne pas prendre de retard.
+    
+                                                                            LIVRABLE 1
+    Tout le monde avait des tâches à faire. Chaque semaine on se rassemblé, que ce soit dans une salle réservé à la bibliothèque Liliad ou dans une salle TP de l'IUT.
+    On rester en contact grâce a un groupe facebook et un Google Drive pour pouvoir échanger sur le projet.
+    
+                                                                            LIVRABLE 2
+    Même méthode de travail que pour le livrable 1. Nous avons commencé à utilisé un site qui s'appelle Trello qui nous permet de mieux définir les tâches à faire, à vérifier 
+    et les tâches qui sont finis. 

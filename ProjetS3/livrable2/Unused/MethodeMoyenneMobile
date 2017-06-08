@@ -1,0 +1,26 @@
+public void MoyenneMobile(Courbe<Number,Number> c){
+		System.out.print("Ordre : ");
+		@SuppressWarnings("resource")
+		Scanner sc = new Scanner(System.in);
+		int ordre = sc.nextInt();
+		
+		double tabX[]=new double[courbeData.sizeOfData()];
+		double moyenne = 0;
+		
+		for(int i=2; i<courbeData.sizeOfData()-2;++i){
+			
+				tabX[i]=(double)courbeData.getX(i);
+				if(ordre%2==0){
+					moyenne=((0.5*(double)courbeData.getY(i-2))+(double)courbeData.getY(i-1)+(double)courbeData.getY(i)+(double)courbeData.getY(i+1)+((double)courbeData.getY(i+2)*0.5));
+					moyenne = moyenne/ordre;
+					System.out.println("test");
+				}
+				else{
+					moyenne=((double)courbeData.getY(i-1)+(double)courbeData.getY(i)+(double)courbeData.getY(i+1));
+					moyenne = moyenne/ordre;
+				}
+				System.out.println("y: "+Double.valueOf(moyenne)+" x: "+courbeData.getY(i-1));
+				c.addXY(tabX[i],moyenne);			
+		}
+		
+	}

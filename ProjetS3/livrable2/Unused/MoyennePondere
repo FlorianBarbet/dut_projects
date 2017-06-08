@@ -1,0 +1,55 @@
+public void transfoMMPondere(){
+		double tabX[]=new double[courbeData.sizeOfData()];
+		double tabY[]=new double[courbeData.sizeOfData()];
+		double pondere = 0;
+		double somme=0;
+		for(int i=0;i<courbeData.sizeOfData();++i){
+			tabX[i]=(double)courbeData.getX(i);
+			tabY[i]=(double)courbeData.getY(i);
+			somme=somme+tabX[i];	
+			pondere=pondere+tabY[i]*(tabX[i]/somme);
+			System.out.println(pondere);
+		}
+	}
+	
+	/**
+	 * @author Rayan
+	 * @param c
+	 */
+	public void mmPondere(Courbe<Number,Number> c,int a, int[] ponderation){
+		int cpt=0;
+		double tabX[]=new double[courbeData.sizeOfData()];
+		double mPond = 0;
+
+		if(a==1){
+			System.out.println("Moyenne Mobile Pondere :mPht");
+		}
+		if(this.ordre <= 0){
+			System.out.print("Ordre : ");
+			setOrdre(sc.nextInt());
+		}
+		
+		ponderation = new int[ordre];
+
+		if(this.ordre<=0){
+			mmPondere(c,a,ponderation);
+		}
+		else{
+			for(int i=2; i<courbeData.sizeOfData()-2;++i){
+				tabX[i]=(double)courbeData.getX(i);
+				if(ordre%2==0){
+					mPond=((0.5*(double)courbeData.getY(i-2))*ponderation[ordre]+(double)courbeData.getY(i-1)*ponderation[ordre-1]+(double)courbeData.getY(i)*ponderation[ordre-2]+(double)courbeData.getY(i+1)*ponderation[ordre-3]+((double)courbeData.getY(i+2)*0.5));
+					mPond = mPond/ordre;
+				}
+				else{
+					mPond=((double)courbeData.getY(i-1)+(double)courbeData.getY(i)+(double)courbeData.getY(i+1));
+					mPond = mPond/ordre;
+				}
+				if(a==1){
+					System.out.println("Mht: "+Double.valueOf(mPond));
+				}
+				c.addXY(tabX[i],mPond);
+				++cpt;
+			}
+		}
+	}
