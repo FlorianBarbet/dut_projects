@@ -1,0 +1,154 @@
+/* *****Accueil***** */
+
+ #accueilP{
+
+	-fx-background-image: url("../res/Fond.png") ;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover,auto;
+	}
+
+ .button{
+	-fx-background-color:rgb(136,0,21);
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 35px;
+    -fx-padding: 10 20 10 20;
+}
+#taux{
+	-fx-text-fill: white;
+}
+#Bplus{
+	-fx-size: 15px;
+}
+#BoutonModifie{
+	-fx-background-color:rgb(202,17,42);
+	-fx-font-size: 15px;
+	-fx-padding: 5 10 5 10;
+	
+}
+#modal{
+	-fx-background-color:rgb(136,0,21);
+}
+#taille{
+	-fx-font-size: 15px;
+	-fx-padding: 5 10 5 10;
+
+}
+.button:hover {
+	
+    -fx-background-color: rgb(202,17,42) ;
+   
+}
+/* ******Mode de Jeu******** */
+#unVSun,#unVSia,#iaVSia{
+	-fx-background-radius: 10,4,3,5;
+	-fx-background-color:rgb(136,0,21);
+}
+#unVSun:hover,#unVSia:hover,#iaVSia:hover{
+	-fx-text-fill:Transparent;
+	-fx-background-color: Transparent;
+	
+}
+
+#modeDeJeu{
+
+	-fx-background-image: url("../res/Mode1.png") ;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover,auto;
+	}
+	
+
+#premierJ{
+
+	-fx-background-image: url("../res/hangar.png") ;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover,auto;
+	}
+#deuxiemeJ{
+
+	-fx-background-image: url("../res/hangar.png") ;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover,auto;
+	}
+	
+#validation{
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 12px;
+    -fx-padding: 10 20 10 20;
+}
+#validation:hover {
+	-fx-background-color: 
+        #C0C0C0,
+        linear-gradient(#606060 0%, #C0C0C0 20%, #E0E0E0 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+	
+}
+#tireur{
+	
+		-fx-background-image: url("images/tireur2.png") ;
+		-fx-background-size: cover,auto;
+		
+	
+}
+.TextField{
+	-fx-background-color:rgb(255,255,255);
+	
+}
+
+#mineur{
+		-fx-background-image: url("images/mineur2.png") ;
+		-fx-background-size: cover,auto;
+}
+
+#tank{
+		-fx-background-image: url("images/tank2.png") ;
+		-fx-background-size: cover,auto;
+	}
+
+	
+	/*********** Regles Jeu ******** */
+#reglesDuJeu{
+
+	-fx-background-image: url("../res/Fond.png") ;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover,auto;
+	}
+
+/*********** Regles Solo******** */
+#reglesModeSolo{
+
+	-fx-background-image: url("../res/Fond.png") ;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover,auto;
+	}
+	
+/*********** Regles Duo********* */
+#reglesModeDuo{
+
+	-fx-background-image: url("../res/Fond.png") ;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover,auto;
+	}
+	
+/*********** Regles Auto *******/
+#reglesModeAuto{
+
+	-fx-background-image: url("../res/Fond.png") ;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover,auto;
+	}
